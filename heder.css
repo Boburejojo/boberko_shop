@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(252, 252, 252);
+}
+.w{
+    grid-template-rows: 20vh 30vh;
+    background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1648009597_2-gamerwall-pro-p-fon-odezhda-krasivie-2.jpg);
+    background-position: center;
+}
+.shop{
+    grid-column: 2/-2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+.main .description {
+grid-column: 2/-2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin: 25px 0;
+}
+.shop .item{
+    display: flex;
+    flex-direction: column;
+}
+.shop p{
+    position: static;
+}
+.shop .item img{
+    margin-bottom: 30px;
+
+}
+.text{
+    grid-column: 2/-2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: red;
+   text-shadow: red;
+}
+
+
